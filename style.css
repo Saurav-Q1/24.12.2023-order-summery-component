@@ -1,0 +1,104 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #e0e8ff;
+}
+body .card {
+  border: none;
+  height: 700px;
+  width: 450px;
+  border: 1px solid white;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: -1px 8px 24px 5px rgba(85, 97, 178, 0.4);
+  -webkit-box-shadow: -1px 8px 24px 5px rgba(85, 97, 178, 0.4);
+  -moz-box-shadow: -1px 8px 24px 5px rgba(85, 97, 178, 0.4);
+}
+body .card .card-body {
+  width: 100%;
+  margin-top: 50px;
+}
+body .card .card-body .top-body {
+  text-align: center;
+}
+body .card .card-body .top-body p:first-child {
+  margin-top: 30px;
+  font-weight: 900;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+body .card .card-body .top-body p:last-child {
+  font-weight: 300;
+  color: #a0a7b7;
+}
+body .card .card-body .lower-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .card .card-body .lower-body .music-section {
+  margin-top: 30px;
+  padding-left: 30px;
+  width: 354px;
+  height: 99px;
+  background-color: #f8f9fe;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+body .card .card-body .lower-body .music-section a {
+  margin-left: 65px;
+}
+body .card .card-body .lower-body .music-section a:hover {
+  text-decoration: none;
+}
+body .card .card-footer {
+  width: 100%;
+}
+body .card .card-footer .payment {
+  width: 356px;
+  height: 52px;
+  background-color: #382ae1;
+  color: white;
+  border: none;
+  font-size: large;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  box-shadow: -1px 8px 24px 5px rgba(85, 97, 178, 0.4);
+  -webkit-box-shadow: -1px 8px 24px 5px rgba(85, 97, 178, 0.4);
+  -moz-box-shadow: -1px 8px 24px 5px rgba(85, 97, 178, 0.4);
+}
+body .card .card-footer .payment:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+body .card .card-footer .cancel {
+  border: none;
+  background: none;
+  font-size: large;
+  font-weight: bold;
+  display: block;
+  margin: auto;
+  color: #a0a7b7;
+  margin-top: 10px;
+}
+body .card .card-footer .cancel:hover {
+  color: black;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

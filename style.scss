@@ -1,0 +1,113 @@
+// <style>
+//     .attribution { font-size: 11px; text-align: center; }
+//     .attribution a { color: hsl(228, 45%, 44%); }
+//   </style>
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #e0e8ff;
+
+  .card {
+    border: none;
+    height: 700px;
+    width: 450px;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: -1px 8px 24px 5px rgba(85, 97, 178, 0.4);
+    -webkit-box-shadow: -1px 8px 24px 5px rgba(85, 97, 178, 0.4);
+    -moz-box-shadow: -1px 8px 24px 5px rgba(85, 97, 178, 0.4);
+
+    .card-body {
+      width: 100%;
+      margin-top: 50px;
+      //   height: 325px;
+      //   border: 1px solid black;
+      .top-body {
+        text-align: center;
+        p:first-child {
+          margin-top: 30px;
+          font-weight: 900;
+          font-size: 25px;
+          margin-bottom: 15px;
+        }
+        p:last-child {
+          font-weight: 300;
+          color: #a0a7b7;
+        }
+      }
+      .lower-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .music-section {
+          margin-top: 30px;
+          padding-left: 30px;
+          width: 354px;
+          height: 99px;
+          background-color: #f8f9fe;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 20px;
+          border-radius: 15px;
+          margin-bottom: 30px;
+
+          a {
+            margin-left: 65px;
+          }
+          a:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .card-footer {
+      width: 100%;
+      .payment {
+        width: 356px;
+        height: 52px;
+        background-color: #382ae1;
+        color: white;
+        border: none;
+        font-size: large;
+        border-radius: 10px;
+        display: block;
+        margin: auto;
+        box-shadow: -1px 8px 24px 5px rgba(85, 97, 178, 0.4);
+        -webkit-box-shadow: -1px 8px 24px 5px rgba(85, 97, 178, 0.4);
+        -moz-box-shadow: -1px 8px 24px 5px rgba(85, 97, 178, 0.4);
+      }
+      .payment:hover {
+        cursor: pointer;
+        opacity: 80%;
+      }
+      .cancel {
+        border: none;
+        background: none;
+        font-size: large;
+        font-weight: bold;
+        display: block;
+        margin: auto;
+        color: #a0a7b7;
+        margin-top: 10px;
+      }
+      .cancel:hover {
+        color: black;
+        cursor: pointer;
+      }
+    }
+  }
+}
